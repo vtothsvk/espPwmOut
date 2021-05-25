@@ -12,6 +12,10 @@
 #define PWM_SPEED_MODE          LEDC_LOW_SPEED_MODE
 #define PWM_TIMER_RESOLUTION    8192
 
+#define PWM_DEFAULT_CHANNEL LEDC_CHANNEL_0
+#define PWM_DEFAULT_TIMER   LEDC_TIMER_0
+#define PWM_DEFAULT_FREQ    5000//Hz
+
 /**
  * \defgroup drivers_PwmOut PwmOut class
  * \ingroup drivers-public-api-gpio
